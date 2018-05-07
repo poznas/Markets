@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_parent"
+    style="@style/ItemMarket"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/inst_name_view"
+        style="@style/Instrument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wall Street au comptant (10$)" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/display_offer_view"
+        style="@style/Offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24454.5"/>
+
+</LinearLayout>
